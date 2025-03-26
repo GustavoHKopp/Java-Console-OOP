@@ -27,6 +27,10 @@ public class EmployeeService {
 
 		return result;
 	}
+	
+	public static List<Employee> getAllEmployee() {
+		return employees;
+	}
 
 	public static String showOneEmployee(String nome) {
 		String result = "";
